@@ -17,13 +17,30 @@ Using
 
 The interface is similar to Restler's interface:
 
-    var rest = require('restler-q');
+```javascript
+var rest = require('restler-q');
 
-    rest.get('https://api.github.com/orgs/Troupe/repos')
-      .then(function(repos) {
-        assert(Array.isArray(repos));
-      })
-      .nodeify(done);
+rest.get('https://api.github.com/orgs/Troupe/repos')
+  .then(function(repos) {
+    assert(Array.isArray(repos));
+  })
+  .nodeify(done);
+```
+
+If you would like to gain access to the response object, do it like this
+
+```javascript
+var rest = require('restler-q').spread; // Note the .spread on the end!
+rest.get('https://api.github.com/orgs/Troupe/repos')
+  .spread(function(repos, response) {
+    // Use Q's `spread`, not `then` 
+    assert(Array.isArray(repos));
+  })
+  .fail(function(err) {
+    // err.response contains the HTTP Response
+  })
+  .nodeify(done);
+```
 
 Running the tests
 -----------------

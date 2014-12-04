@@ -1,4 +1,4 @@
-restler-q [![Build Status](https://api.travis-ci.org/troupe/restler-q.png)](https://api.travis-ci.org/troupe/restler-q.png)
+restler-q [![Build Status](https://api.travis-ci.org/troupe/restler-q)](https://api.travis-ci.org/troupe/restler-q.png)
 =========
 
 (C) Andrew Newdigate (@suprememoocow), Licensed under the MIT-LICENSE

@@ -1,6 +1,6 @@
 {
   "name": "restler-q",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Q Wrapper for Restler",
   "main": "index.js",
   "scripts": {

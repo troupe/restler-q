@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Troupe/restler-q"
+    "url": "https://github.com/troupe/restler-q"
   },
   "keywords": [
     "q",
@@ -19,13 +19,13 @@
   "author": "Andrew Newdigate",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Troupe/restler-q/issues"
+    "url": "https://github.com/troupe/restler-q/issues"
   },
   "dependencies": {
     "q": "^1.0.0",
     "restler": "^3.0.0"
   },
   "devDependencies": {
-    "mocha": "~1.13.0"
+    "mocha": "^2.0.0"
   }
 }

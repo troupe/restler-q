@@ -1,9 +1,10 @@
 language: node_js
 node_js:
   - "0.10"
+  - "0.12"
 
 notifications:
-   webhooks: 
+   webhooks:
      urls:
        - https://webhooks-beta.trou.pe/endpoint/6912a21f18ee4e44c69c/527bc8b17f24ce5b5b000112/
      on_success: always

@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "q": "^1.4.1",
-    "restler": "^3.0.0"
+    "restler": "git+https://github.com/gradecam/restler.git"
   },
   "devDependencies": {
     "mocha": "^2.0.0"

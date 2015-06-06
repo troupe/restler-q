@@ -1,6 +1,6 @@
 {
   "name": "restler-q",
-  "version": "0.1.2",
+  "version": "0.1.10",
   "description": "Q Wrapper for Restler",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,8 @@
     "url": "https://github.com/troupe/restler-q/issues"
   },
   "dependencies": {
-    "q": "^1.0.0",
-    "restler": "^3.0.0"
+    "q": "^1.4.1",
+    "restler": "git+https://github.com/gradecam/restler.git"
   },
   "devDependencies": {
     "mocha": "^2.0.0"

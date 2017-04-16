@@ -1,5 +1,6 @@
 restler-q [![Build Status](https://api.travis-ci.org/troupe/restler-q.png)](https://travis-ci.org/troupe/restler-q)
 =========
+[![Gitter](https://badges-beta.gitter.im/Join Chat.svg)](https://beta.gitter.im/troupe/restler-q?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 (C) Andrew Newdigate (@suprememoocow), Licensed under the MIT-LICENSE
 

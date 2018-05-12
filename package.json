@@ -1,14 +1,15 @@
 {
-  "name": "restler-q",
+  "name": "@gradecam/restler-q",
   "version": "0.1.10",
   "description": "Q Wrapper for Restler",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/troupe/restler-q"
+    "url": "https://github.com/gradecam/restler-q"
   },
   "keywords": [
     "q",
@@ -17,15 +18,20 @@
     "restler"
   ],
   "author": "Andrew Newdigate",
+  "contributors": [
+    "Robert Porter",
+    "Jarom Loveridge"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/troupe/restler-q/issues"
+    "url": "https://github.com/gradecam/restler-q/issues"
   },
   "dependencies": {
-    "q": "^1.4.1",
-    "restler": "git+https://github.com/gradecam/restler.git"
+    "@gradecam/restler": "^3.4.0",
+    "q": "^1.4.1"
   },
   "devDependencies": {
-    "mocha": "^2.0.0"
+    "@types/node": "^6.0.110",
+    "mocha": "^5.1.1"
   }
 }

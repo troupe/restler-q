@@ -1,6 +1,6 @@
 {
   "name": "@gradecam/restler-q",
-  "version": "0.1.10",
+  "version": "0.2.0",
   "description": "Q Wrapper for Restler",
   "main": "index.js",
   "types": "index.d.ts",
